@@ -18,7 +18,7 @@ The submitted work represents a well balanced team effort: Each of the members s
 
 ## Screencast tutorial
 Please follow the screencast tutorial which is available at
-*   xxx
+*   x
 
 ## Install instructions
 To install all required libraries we assume that users have a recent install of the Anaconda distribution with Python <=3.7 
