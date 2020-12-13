@@ -52,18 +52,17 @@ To replicate our results run the following notebook
 * PDF see <a href="1. Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.pdf">1. Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.pdf</a>
 
 ## Appendix I.The progress report - initial experimentation
-* Jupyter Notebook see "Appendix I.The progress report - initial experimentation.ipynb"
-* PDF see "Appendix I.The progress report - initial experimentation.pdf"
+* Jupyter Notebook see  <a href="Appendix I.The progress report - initial experimentation.ipynb">Appendix I.The progress report - initial experimentation.ipynb</a>
+* PDF see <a href="Appendix I.The progress report - initial experimentation.pdf">Appendix I.The progress report - initial experimentation.pdf</a>
 
 ## Appendix II.  Google Colab Hyperparameter tuning
 use colab at https://colab.research.google.com/ <br>
 if you want to test the code, note that you need to upload the data folder to your google drive, replace folder paths, and connect to google drive from with the colab notebook
-* Jupyter Notebook see "Appendix II. Hyperparameter tuning.ipynb"
-* PDF  see "Appendix II. Hyperparameter tuning.pdf"
-
+* Jupyter Notebook see <a href="Appendix II. Hyperparameter tuning.ipynb">Appendix II. Hyperparameter tuning.ipynb</a>
+* PDF  see <a href="Appendix II. Hyperparameter tuning.pdf">Appendix II. Hyperparameter tuning.pdf</a>
 ## Appendix III. Google Colab Roberta Training and Sarcasm Prediction
 **use this code if you don't have a GPU to speed up training the model and retrieving the prediction results** <br>
 use colab at https://colab.research.google.com/ <br>
 if you want to test the code, note that you need to upload the data folder to your google drive, replace folder paths, and connect to google drive from with the colab notebook
-* Jupyter Notebook see "Appendix III. Roberta Training and Sarcasm Prediction.ipynb"
-* PDF  see "Appendix III. Roberta Training and Sarcasm Prediction.pdf"
+* Jupyter Notebook see <a href="Appendix III. Roberta Training and Sarcasm Prediction.ipynb">Appendix III. Roberta Training and Sarcasm Prediction.ipynb</a>
+* PDF  see <a href="Appendix III. Roberta Training and Sarcasm Prediction.pdf">Appendix III. Roberta Training and Sarcasm Prediction.pdf</a>
