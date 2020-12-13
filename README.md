@@ -27,8 +27,8 @@ We beat the baseline using the fine-tuned RoBERTa model (user mattblack):
 # Running our Code and replicating results
 
 ## Screencast tutorial
-Please follow the screencast tutorial which is available at
-*   x
+You can follow the screen cast presentation, available at
+*  <a href="https://youtu.be/K9CPy_nm3vs">https://youtu.be/K9CPy_nm3vs</a>
 
 ## Install instructions
 To install all required libraries we assume that users have a recent install of the Anaconda distribution with Python <=3.7 <br>
@@ -45,7 +45,8 @@ or without cpu conda install pytorch torchvision torchaudio cpuonly -c pytorch
 * cd to your working directory e.g.: cd C:\UIUC\TextMining\FinalProjectSubmission
 * then start notebooks by entering in cmd prompt: jupyter notebook
 
-# Main document: Project Report Team The Classifiers - Twitter Sarcasm Detection (with a fine-tuned RoBERTa model)
+# Main documents
+## Project Report Team The Classifiers - Twitter Sarcasm Detection (with a fine-tuned RoBERTa model)
 We use RoBERTa as our workhorse model, see https://paperswithcode.com/method/roberta <br>
 To replicate our results run the following notebook
 * Jupyter Notebook see <a href="1. Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.ipynb">1. Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.ipynb</a>
