@@ -14,11 +14,15 @@ Option 4: Text Classification Competition - Sarcasm Detection on Twitter data
 The submitted work represents a well balanced team effort: Each of the members spend considerable time on researching potential models and frameworks. Praveen and Steven worked on and tested baseline models like SVM and random forest, Matthias focused on pre-trained models. When BERT type models turned out to be the most promising, we jointly concentrated on improving the performance of a fine tuned RoBERTa model. Praveen looked into improving accuracy via data preparation, Steven added context, Matthias experimented with hyperparameter tuning. 
 
 # What we do
--  We are fine tuning RoBERTa. RoBERTa, a neural language model that extends BERT and was pre-trained on even more massive amounts of text data, e.g. Wikipedia and news articles with a dynamically chaning masking pattern for the missing word prediction task.
--  We have experimented with basic NLP models such as SVM, Random Forest, Naive Bayes (see our progress report in Appendix I)
--  We do employ some basic data cleaning like stop word removal, further experimentation into data preparation has not improved model performance.
--  We experimented with hyperparameter tuning on google colab (to exploit their GPU offerings) and found a learning rate of 0.00002 and number of epochs equal 13 for fine-tuning to allow us generating predictions that beat the baseline (see appendix II and III).
+*  We are fine tuning RoBERTa. RoBERTa, a neural language model that extends BERT and was pre-trained on even more massive amounts of text data, e.g. Wikipedia and news articles with a dynamically chaning masking pattern for the missing word prediction task.
+*  We have experimented with basic NLP models such as SVM, Random Forest, Naive Bayes (see our progress report in Appendix I)
+*  We do employ some basic data cleaning like stop word removal, further experimentation into data preparation has not improved model performance.
+*  We simply concatenated all context to the twitter response that was available.
+*  We experimented with hyperparameter tuning on google colab (to exploit their GPU offerings) and found a learning rate of 2.741032760877178e-05 and number of epochs equal 4 for fine-tuning to allow us generating predictions that beat the baseline (see appendix II and III).
 
+# Result
+We did beat the baseline using the fine-tuned RoBERTa model (user mattblack):
+<img src="leaderboardHyperparameterTuning.jpg">
 
 # Running our Code and replicating results
 
@@ -43,8 +47,8 @@ or without cpu conda install pytorch torchvision torchaudio cpuonly -c pytorch
 # Main document: Project Report Team The Classifiers - Twitter Sarcasm Detection (with a fine-tuned RoBERTa model)
 We use RoBERTa as our workhorse model, see https://paperswithcode.com/method/roberta <br>
 To replicate our results run the following notebook
-* Jupyter Notebook see "Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.ipynb"
-* PDF see "Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.pdf"
+* Jupyter Notebook see "1. Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.ipynb"
+* PDF see "1. Project Report and Classifier Code Team The Classifiers - Twitter Sarcasm Detection.pdf"
 
 ## Appendix I.The progress report - initial experimentation
 * Jupyter Notebook see "Appendix I.The progress report - initial experimentation.ipynb"
@@ -57,7 +61,8 @@ if you want to test the code, note that you need to upload the data folder to yo
 * PDF  see "Appendix II. Hyperparameter tuning.pdf"
 
 ## Appendix III. Google Colab Roberta Training and Sarcasm Prediction
+**use this code if you don't have a GPU to speed up training the model** <br>
 use colab at https://colab.research.google.com/ <br>
 if you want to test the code, note that you need to upload the data folder to your google drive, replace folder paths, and connect to google drive from with the colab notebook
-* Jupyter Notebook see "Appendix II. Roberta Training and Sarcasm Prediction.ipynb"
+* Jupyter Notebook see "Appendix III. Roberta Training and Sarcasm Prediction.ipynb"
 * PDF  see "Appendix III. Roberta Training and Sarcasm Prediction.pdf"
